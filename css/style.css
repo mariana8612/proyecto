@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/portada.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100% 450px;
+    margin: 0;
+    padding: 0;
+    background-position: center top 60px;
+}
+
+
+.tituloPrincipal {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    color: bisque;
+    margin-left: 3.75rem;
+
+}
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: bisque;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 60px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+#ancla1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    text-align: center;
+    color: bisque;
+}
+
+.sec1 {
+    color: bisque;
+    margin-top: 460px;
+    margin-bottom: 3.75rem;
+}
+
+.sec1 h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: bisque;
+    text-align: center;
+}
+
+.sec2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.sec3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sec3 h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: bisque;
+    text-align: center;
+}
+
+.registro1 {
+    padding-right: 1.25rem;
+}
+
+.listaModificada {
+    list-style-image: url("../img/listas.png");
+}
+
+.listaModificada li {
+    text-align: center;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+}
+
+.sec4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sec4 h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: bisque;
+    text-align: center;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.formulario label,
+.formulario input,
+.formulario textarea,
+.formulario input[type="submit"] {
+    display: block;
+    margin: 5px auto;
+    width: 80%;
+    max-width: 400px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.pie {
+    margin: 3.125rem;
+    display: flex;
+    justify-content: center;
+
+}
